@@ -146,12 +146,12 @@ header{
     height:80px;
 }
 
-.logo{
+..logo{
     display:flex;
     align-items:center;
-    gap:10px;
+    gap:15px;
     flex:1;
-    color:#8B1538;
+    color:#222;
 }
 
 .logo i{
@@ -162,7 +162,7 @@ header{
     font-size:1.6rem;
     font-weight:700;
     white-space:nowrap;
-    color:#8B1538;
+    color:#222;
 }
 .nav-links{
     display:flex;
