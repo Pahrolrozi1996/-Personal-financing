@@ -151,8 +151,7 @@ document.addEventListener("DOMContentLoaded", () => {
             return null;
         }
 
-        const message =
-`Assalamualaikum.
+        const message = `Assalamualaikum.
 
 Saya ingin membuat semakan kelayakan Pembiayaan Peribadi-i Bank Islam.
 
@@ -160,11 +159,11 @@ Saya ingin membuat semakan kelayakan Pembiayaan Peribadi-i Bank Islam.
 🎂 Umur: ${umur}
 💰 Basic Salary: RM ${basicSalary}
 💵 Elaun Tetap: RM ${elaunTetap}
-🏢 Sektor: ${sektor}`;
+🏢 Sektor: ${sektor}
 
 Terima kasih.`;
 
-        return `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+return `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
     }
 
     /* Submit Form */
