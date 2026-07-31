@@ -152,14 +152,17 @@ header{
     display:flex;
     align-items:center;
     gap:10px;
-    font-size:1.3rem;
-    white-space:nowrap;
+}
+
+.logo i{
+    font-size:28px;
 }
 
 .logo span{
+    font-size:1.8rem;
+    font-weight:700;
     white-space:nowrap;
 }
-
 .nav-links{
 
     display:flex;
