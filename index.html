@@ -113,65 +113,95 @@ padding:30px;
 
 <div class="card">
 
-<h2>Semakan Kelayakan</h2>
+<h2>Semakan Kelayakan Percuma</h2>
 
-<input id="nama" placeholder="Nama">
+<input type="text" id="nama" placeholder="Nama Penuh">
 
-<select id="sektor">
+<input type="number" id="umur" placeholder="Umur">
 
-<option>Kerajaan</option>
-
-<option>Swasta</option>
-
-<option>GLC</option>
-
+<select id="sektor" onchange="toggleCompany()">
+    <option value="">-- Pilih Sektor --</option>
+    <option value="Kerajaan">Kerajaan</option>
+    <option value="GLC">GLC</option>
+    <option value="Swasta">Swasta</option>
 </select>
 
-<input id="gaji" placeholder="Gaji Bulanan">
+<div id="companyDiv" style="display:none;">
+    <input type="text" id="company" placeholder="Nama Syarikat">
+</div>
 
-<input id="jumlah" placeholder="Jumlah Pembiayaan">
+<input type="number" id="gaji" placeholder="Gaji Pokok + Elaun Tetap (RM)">
+
+<select id="status">
+    <option value="">-- Status Pekerjaan --</option>
+    <option>Permanent & Confirm</option>
+    <option>Kontrak</option>
+</select>
+
+<input type="text" id="tempoh" placeholder="Tempoh Berkhidmat (Contoh: 3 Tahun 2 Bulan)">
 
 <button onclick="ws()">
-
-SEMAK KELAYAKAN
-
+SEMAK KELAYAKAN SEKARANG
 </button>
 
 </div>
 
-</div>
-
-<footer>
-
-©2026 Personal Financing
-
-</footer>
-
+</body>
+</html>
 <script>
+
+function toggleCompany(){
+
+let sektor=document.getElementById("sektor").value;
+
+if(sektor=="Swasta" || sektor=="GLC"){
+
+document.getElementById("companyDiv").style.display="block";
+
+}else{
+
+document.getElementById("companyDiv").style.display="none";
+
+}
+
+}
 
 function ws(){
 
 let nama=document.getElementById("nama").value;
 
+let umur=document.getElementById("umur").value;
+
 let sektor=document.getElementById("sektor").value;
+
+let company=document.getElementById("company").value;
 
 let gaji=document.getElementById("gaji").value;
 
-let jumlah=document.getElementById("jumlah").value;
+let status=document.getElementById("status").value;
 
-let text=`Salam / Hai,
+let tempoh=document.getElementById("tempoh").value;
+
+let text=
+`Salam / Hai,
 
 Saya nak semak kelayakan Pembiayaan Peribadi.
 
 Maklumat Saya:
 
 Nama : ${nama}
+Umur : ${umur}
+Sektor : ${sektor}`;
 
-Sektor : ${sektor}
+if(sektor=="Swasta" || sektor=="GLC"){
+text += `\nNama Syarikat : ${company}`;
+}
+
+text += `
 
 Gaji : RM${gaji}
-
-Jumlah Pembiayaan : RM${jumlah}
+Status Pekerjaan : ${status}
+Tempoh Berkhidmat : ${tempoh}
 
 Mohon bantu semak kelayakan saya.
 
@@ -182,6 +212,3 @@ window.open("https://wa.me/60134300057?text="+encodeURIComponent(text));
 }
 
 </script>
-
-</body>
-</html>
