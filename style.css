@@ -1494,19 +1494,17 @@ header{
 }
 
 .logo{
-    display:flex;
-    align-items:center;
     gap:8px;
 }
 
 .logo i{
-    font-size:26px;
+    font-size:24px;
 }
 
 .logo span{
-    font-size:1rem;
+    font-size:1rem !important;
     line-height:1.1;
-    font-weight:700;
+    white-space:normal;
 }
 
 .nav-links{
