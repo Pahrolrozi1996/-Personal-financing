@@ -133,15 +133,17 @@ document.addEventListener("DOMContentLoaded", () => {
        Tukar kepada nombor anda
     =============================== */
 
-    const phone = "601140023811";
+    const phone = "60134300057";
 
     const form = document.getElementById("leadForm");
     const floatingWA = document.getElementById("whatsappButton");
 
     function buildWhatsappMessage() {
 
-        const nama = document.getElementById("nama").value.trim();
-        const umur = document.getElementById("umur").value.trim();
+        const nama = document.getElementById("nama").value;
+        const umur = document.getElementById("umur").value;
+        const basicSalary = document.getElementById("basicSalary").value;
+        const elaunTetap = document.getElementById("elaunTetap").value;
         const sektor = document.getElementById("sektor").value;
 
         if (!nama || !umur || !sektor) {
@@ -152,11 +154,13 @@ document.addEventListener("DOMContentLoaded", () => {
         const message =
 `Assalamualaikum.
 
-Saya ingin membuat semakan awal Pembiayaan Peribadi-i.
+Saya ingin membuat semakan kelayakan Pembiayaan Peribadi-i Bank Islam.
 
-Nama : ${nama}
-Umur : ${umur}
-Sektor : ${sektor}
+📌 Nama: ${nama}
+🎂 Umur: ${umur}
+💰 Basic Salary: RM ${basicSalary}
+💵 Elaun Tetap: RM ${elaunTetap}
+🏢 Sektor: ${sektor}`;
 
 Mohon staf Bank Islam menghubungi saya untuk semakan lanjut.
 
