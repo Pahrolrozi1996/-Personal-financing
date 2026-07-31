@@ -162,8 +162,6 @@ Saya ingin membuat semakan kelayakan Pembiayaan Peribadi-i Bank Islam.
 💵 Elaun Tetap: RM ${elaunTetap}
 🏢 Sektor: ${sektor}`;
 
-Mohon staf Bank Islam menghubungi saya untuk semakan lanjut.
-
 Terima kasih.`;
 
         return `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
