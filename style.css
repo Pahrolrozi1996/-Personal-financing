@@ -146,7 +146,7 @@ header{
     height:80px;
 }
 
-..logo{
+.logo{
     display:flex;
     align-items:center;
     gap:15px;
@@ -155,7 +155,7 @@ header{
 }
 
 .logo i{
-    color:#8B1538;
+    color:#222;
 }
 
 .logo span{
