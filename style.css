@@ -149,18 +149,15 @@ header{
 }
 
 .logo{
-
-    font-size:1.6rem;
-    font-weight:700;
-
-    color:var(--primary);
-
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-size:1.3rem;
+    white-space:nowrap;
 }
 
 .logo span{
-
-    color:var(--gold);
-
+    white-space:nowrap;
 }
 
 .nav-links{
