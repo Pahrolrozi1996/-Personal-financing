@@ -5,8 +5,8 @@
 
 :root{
 
-    --primary:#0E7A43;
-    --primary-dark:#075C31;
+    --primary:#8B1538;
+    --primary-dark:#6F0F2D;
     --gold:#D4AF37;
     --navy:#0D1B2A;
     --white:#ffffff;
@@ -151,18 +151,18 @@ header{
     align-items:center;
     gap:10px;
     flex:1;
-    color:#0E7A43;
+    color:#8B1538;
 }
 
 .logo i{
-    color:#0E7A43;
+    color:#8B1538;
 }
 
 .logo span{
     font-size:1.6rem;
     font-weight:700;
     white-space:nowrap;
-    color:#0E7A43;
+    color:#8B1538;
 }
 .nav-links{
     display:flex;
