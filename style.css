@@ -207,7 +207,7 @@ header{
 
     transform:translateY(-3px);
 
-    box-shadow:0 10px 30px rgba(14,122,67,.30);
+    box-shadow:0 10px 30px rgba(139,21,56,.30);
 
 }
 
@@ -222,7 +222,7 @@ header{
 
     background:
 
-    linear-gradient(rgba(7,92,49,.90),rgba(13,27,42,.88)),
+    linear-gradient(rgba(139,21,56,.88),rgba(111,15,45,.92)),
 
     url("https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1600&q=80");
 
@@ -452,7 +452,7 @@ section{
 
     border-radius:50px;
 
-    background:rgba(14,122,67,.10);
+    background:rgba(139,21,56,.10);
 
     color:var(--primary);
 
@@ -664,7 +664,7 @@ section{
 
     border-radius:18px;
 
-    background:rgba(14,122,67,.10);
+    background:rgba(139,21,56,.10);
 
     color:var(--primary);
 
