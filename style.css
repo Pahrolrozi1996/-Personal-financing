@@ -242,7 +242,7 @@ header{
 
 }
 
-.hero-text h1{
+.hero-content h1{
 
     font-size:3.2rem;
     line-height:1.2;
@@ -250,7 +250,7 @@ header{
 
 }
 
-.hero-text p{
+.hero-content p{
 
     font-size:1.1rem;
     opacity:.95;
@@ -258,7 +258,7 @@ header{
 
 }
 
-.hero-buttons{
+.hero-button{
 
     display:flex;
     gap:18px;
@@ -331,19 +331,19 @@ header{
 
 }
 
-.hero-list{
+.glass-card ul{
     list-style:none;
     margin:25px 0;
 }
 
-.hero-list li{
+.glass-card ul li{
     margin-bottom:16px;
     display:flex;
     gap:12px;
     align-items:center;
 }
 
-.hero-list i{
+.glass-card ul li i{
 
     color:var(--gold);
 
@@ -1397,7 +1397,7 @@ footer{
 
 }
 
-.hero-buttons{
+.hero-button{
 
     justify-content:center;
 
@@ -1491,25 +1491,25 @@ header{
 
 }
 
-.hero-text h1{
+.hero-content h1{
 
     font-size:2.1rem;
 
 }
 
-.hero-text p{
+.hero-content p{
 
     font-size:.95rem;
 
 }
 
-.hero-buttons{
+.hero-button{
 
     flex-direction:column;
 
 }
 
-.hero-buttons a{
+.hero-button a{
 
     width:100%;
     text-align:center;
@@ -1522,7 +1522,7 @@ header{
 
 }
 
-.hero-list li{
+.glass-card ul li{
 
     font-size:.95rem;
 
@@ -1644,13 +1644,13 @@ header{
 
 }
 
-.hero-text h1{
+.hero-content h1{
 
     font-size:1.8rem;
 
 }
 
-.hero-text p{
+.hero-content p{
 
     font-size:.9rem;
 
@@ -1744,18 +1744,6 @@ header{
 
 }
 
-.navbar{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    height:80px;
-}
-
-.container{
-    width:95%;
-    max-width:1400px;
-    margin:auto;
-}
 
 .menu-toggle{
 
