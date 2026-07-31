@@ -1567,7 +1567,8 @@ header{
 
 .section-title p{
 
-    font-size:.95rem;
+    font-size:1.8rem;
+    white-space:normal;
 
 }
 
