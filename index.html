@@ -1,214 +1,1162 @@
 <!DOCTYPE html>
 <html lang="ms">
+
 <head>
+
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Pembiayaan Peribadi</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<style>
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
 
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,sans-serif;
-}
+<title>Pembiayaan Peribadi-i | Bank Islam</title>
 
-body{
-background:#f5f5f5;
-}
+<meta name="description"
+content="Semak kelayakan Pembiayaan Peribadi-i Bank Islam secara percuma. Proses pantas, patuh Syariah dan dibantu oleh staf Bank Islam.">
 
-header{
+<meta name="keywords"
+content="Pembiayaan Peribadi-i, Personal Financing, Bank Islam, Pembiayaan Kerajaan">
 
-background:#7a1026;
-color:white;
-padding:60px 20px;
-text-align:center;
+<meta property="og:title"
+content="Pembiayaan Peribadi-i">
 
-}
+<meta property="og:description"
+content="Semak kelayakan anda sekarang.">
 
-header h1{
+<meta property="og:type"
+content="website">
 
-font-size:34px;
+<link rel="preconnect"
+href="https://fonts.googleapis.com">
 
-}
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
 
-header p{
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+rel="stylesheet">
 
-margin-top:15px;
-font-size:18px;
+<link rel="stylesheet"
+href="style.css">
 
-}
-
-.container{
-
-width:90%;
-max-width:1100px;
-margin:auto;
-
-}
-
-.card{
-
-background:white;
-padding:25px;
-margin-top:30px;
-border-radius:12px;
-box-shadow:0 5px 15px rgba(0,0,0,.1);
-
-}
-
-input,select{
-
-width:100%;
-padding:15px;
-margin-top:12px;
-border:1px solid #ddd;
-border-radius:8px;
-
-}
-
-button{
-
-width:100%;
-padding:16px;
-background:#25D366;
-border:none;
-color:white;
-font-size:18px;
-border-radius:8px;
-margin-top:20px;
-cursor:pointer;
-
-}
-
-button:hover{
-
-background:#20ba5a;
-
-}
-
-footer{
-
-text-align:center;
-padding:30px;
-
-}
-
-</style>
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
 </head>
 
 <body>
 
+<!-- Loader -->
+
+<div class="loader">
+
+<div class="spinner"></div>
+
+</div>
+
+<!-- Navigation -->
+
 <header>
 
-<h1>Pembiayaan Peribadi</h1>
+<div class="container nav">
 
-<p>Semak Kelayakan Anda Secara Percuma</p>
+<div class="logo">
+
+<i class="fa-solid fa-building-columns"></i>
+
+<span>Pembiayaan Peribadi-i</span>
+
+</div>
+
+<nav>
+
+<ul>
+
+<li><a href="#home">Utama</a></li>
+
+<li><a href="#benefit">Kelebihan</a></li>
+
+<li><a href="#eligibility">Kelayakan</a></li>
+
+<li><a href="#faq">FAQ</a></li>
+
+<li>
+
+<a href="#apply"
+class="nav-btn">
+
+Semak Kelayakan
+
+</a>
+
+</li>
+
+</ul>
+
+</nav>
+
+<div class="mobile-menu">
+
+<i class="fa-solid fa-bars"></i>
+
+</div>
+
+</div>
 
 </header>
 
+<!-- Hero -->
+
+<section
+id="home"
+class="hero">
+
+<div class="container hero-grid">
+
+<div class="hero-left">
+
+<span class="tag">
+
+PATUH SYARIAH
+
+</span>
+
+<h1>
+
+Pembiayaan Peribadi-i
+
+Untuk Penjawat Awam
+
+</h1>
+
+<p>
+
+Semak kelayakan anda secara percuma bersama staf Bank Islam.
+
+Permohonan mudah, proses pantas dan tanpa sebarang caj semakan.
+
+</p>
+
+<div class="hero-btn">
+
+<a href="#apply"
+class="primary-btn">
+
+Semak Kelayakan
+
+</a>
+
+<a href="#benefit"
+class="secondary-btn">
+
+Ketahui Lebih Lanjut
+
+</a>
+
+</div>
+
+<div class="hero-info">
+
+<div>
+
+<h2>100%</h2>
+
+<span>Percuma</span>
+
+</div>
+
+<div>
+
+<h2>Patuh</h2>
+
+<span>Syariah</span>
+
+</div>
+
+<div>
+
+<h2>Pantas</h2>
+
+<span>Semakan</span>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="hero-right">
+
+<div class="glass-card">
+
+<div class="icon">
+
+<i class="fa-solid fa-wallet"></i>
+
+</div>
+
+<h3>
+
+Semakan Awal
+
+</h3>
+
+<p>
+
+Lengkapkan maklumat asas anda dan staf Bank Islam akan menghubungi anda untuk semakan kelayakan.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Benefit -->
+
+<section
+id="benefit"
+class="benefit">
+
 <div class="container">
+
+<div class="section-title">
+
+<h2>
+
+Kenapa Pilih Pembiayaan Peribadi-i?
+
+</h2>
+
+<p>
+
+Direka khas untuk membantu memenuhi keperluan kewangan anda.
+
+</p>
+
+</div>
+
+<div class="benefit-grid">
 
 <div class="card">
 
-<h2>Semakan Kelayakan Percuma</h2>
+<i class="fa-solid fa-shield-halved"></i>
 
-<input type="text" id="nama" placeholder="Nama Penuh">
+<h3>
 
-<input type="number" id="umur" placeholder="Umur">
+Patuh Syariah
 
-<select id="sektor" onchange="toggleCompany()">
-    <option value="">-- Pilih Sektor --</option>
-    <option value="Kerajaan">Kerajaan</option>
-    <option value="GLC">GLC</option>
-    <option value="Swasta">Swasta</option>
-</select>
+</h3>
 
-<div id="companyDiv" style="display:none;">
-    <input type="text" id="company" placeholder="Nama Syarikat">
+<p>
+
+Pembiayaan berlandaskan prinsip Syariah.
+
+</p>
+
 </div>
 
-<input type="number" id="gaji" placeholder="Gaji Pokok + Elaun Tetap (RM)">
+<div class="card">
 
-<select id="status">
-    <option value="">-- Status Pekerjaan --</option>
-    <option>Permanent & Confirm</option>
-    <option>Kontrak</option>
+<i class="fa-solid fa-money-bill-wave"></i>
+
+<h3>
+
+Jumlah Pembiayaan Tinggi
+
+</h3>
+
+<p>
+
+Mengikut kelayakan dan syarat semasa.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-bolt"></i>
+
+<h3>
+
+Proses Mudah
+
+</h3>
+
+<p>
+
+Semakan awal yang cepat oleh staf Bank Islam.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-user-check"></i>
+
+<h3>
+
+Khidmat Profesional
+
+</h3>
+
+<p>
+
+Dibantu secara terus oleh staf Bank Islam.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-file-signature"></i>
+
+<h3>
+
+Dokumen Ringkas
+
+</h3>
+
+<p>
+
+Hanya dokumen penting diperlukan untuk semakan awal.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-headset"></i>
+
+<h3>
+
+Sokongan Sepanjang Proses
+
+</h3>
+
+<p>
+
+Bimbingan sehingga permohonan selesai.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Eligibility -->
+
+<section
+id="eligibility"
+class="eligibility">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>
+
+Siapa Yang Layak?
+
+</h2>
+
+</div>
+
+<div class="eligibility-grid">
+
+<div class="item">
+
+<i class="fa-solid fa-check"></i>
+
+Penjawat Awam
+
+</div>
+
+<div class="item">
+
+<i class="fa-solid fa-check"></i>
+
+Warganegara Malaysia
+
+</div>
+
+<div class="item">
+
+<i class="fa-solid fa-check"></i>
+
+Mempunyai Pendapatan Tetap
+
+</div>
+
+<div class="item">
+
+<i class="fa-solid fa-check"></i>
+
+Tertakluk kepada syarat dan kelulusan Bank.
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Apply -->
+
+<section
+id="apply"
+class="apply">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>
+
+Semak Kelayakan Sekarang
+
+</h2>
+
+<p>
+
+Isi maklumat di bawah. Selepas menekan butang semak kelayakan, anda akan disambungkan terus ke WhatsApp staf Bank Islam.
+
+</p>
+
+</div>
+
+<form id="leadForm">
+
+<div class="input-group">
+
+<label>Nama Penuh</label>
+
+<input
+type="text"
+id="nama"
+placeholder="Masukkan Nama"
+required>
+
+</div>
+
+<div class="input-group">
+
+<label>Umur</label>
+
+<input
+type="number"
+id="umur"
+placeholder="Contoh: 35"
+required>
+
+</div>
+
+<div class="input-group">
+
+<label>Sektor Pekerjaan</label>
+
+<select id="sektor">
+
+<option value="">Sila Pilih</option>
+
+<option>Kerajaan</option>
+
+<option>GLC</option>
+
+<option>Swasta MNC</option>
+
+<option>Swasta PLC</option>
+
 </select>
 
-<input type="text" id="tempoh" placeholder="Tempoh Berkhidmat (Contoh: 3 Tahun 2 Bulan)">
+</div>
 
-<button onclick="ws()">
-SEMAK KELAYAKAN SEKARANG
+<button
+type="submit"
+class="submit-btn">
+
+SEMAK KELAYAKAN
+
 </button>
 
+</form>
+
 </div>
 
+</section>
+
+<!-- FAQ -->
+
+<section id="faq" class="faq">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>Soalan Lazim</h2>
+
+            <p>
+                Antara soalan yang sering ditanya mengenai Pembiayaan Peribadi-i.
+            </p>
+
+        </div>
+
+        <div class="faq-wrapper">
+
+            <div class="faq-item active">
+
+                <div class="faq-question">
+
+                    <span>Siapa yang layak memohon?</span>
+
+                    <i class="fa-solid fa-plus"></i>
+
+                </div>
+
+                <div class="faq-answer">
+
+                    <p>
+                        Kelayakan adalah tertakluk kepada syarat semasa Bank Islam dan
+                        penilaian kredit.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="faq-item">
+
+                <div class="faq-question">
+
+                    <span>Berapa lama proses permohonan?</span>
+
+                    <i class="fa-solid fa-plus"></i>
+
+                </div>
+
+                <div class="faq-answer">
+
+                    <p>
+                        Tempoh pemprosesan bergantung kepada kelengkapan dokumen dan
+                        proses semakan pihak bank.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="faq-item">
+
+                <div class="faq-question">
+
+                    <span>Ada caj untuk semakan kelayakan?</span>
+
+                    <i class="fa-solid fa-plus"></i>
+
+                </div>
+
+                <div class="faq-answer">
+
+                    <p>
+                        Tiada caj dikenakan untuk semakan awal kelayakan.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="faq-item">
+
+                <div class="faq-question">
+
+                    <span>Perlu hadir ke cawangan?</span>
+
+                    <i class="fa-solid fa-plus"></i>
+
+                </div>
+
+                <div class="faq-answer">
+
+                    <p>
+                        Bergantung kepada jenis permohonan dan keperluan semasa pihak
+                        bank.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- CTA -->
+
+<section class="cta">
+
+    <div class="container">
+
+        <div class="cta-box">
+
+            <h2>
+
+                Perlukan Dana?
+
+            </h2>
+
+            <p>
+
+                Semak kelayakan anda sekarang bersama staf Bank Islam.
+
+            </p>
+
+            <a href="#apply" class="primary-btn">
+
+                SEMAK KELAYAKAN
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Footer -->
+
+<footer>
+
+    <div class="container">
+
+        <div class="footer-grid">
+
+            <div>
+
+                <h3>Pembiayaan Peribadi-i</h3>
+
+                <p>
+
+                    Landing page ini bertujuan untuk semakan awal kelayakan
+                    pembiayaan dan dikendalikan oleh staf Bank Islam.
+
+                </p>
+
+            </div>
+
+            <div>
+
+                <h3>Pautan</h3>
+
+                <ul>
+
+                    <li><a href="#home">Utama</a></li>
+
+                    <li><a href="#benefit">Kelebihan</a></li>
+
+                    <li><a href="#eligibility">Kelayakan</a></li>
+
+                    <li><a href="#faq">FAQ</a></li>
+
+                </ul>
+
+            </div>
+
+            <div>
+
+                <h3>Hubungi Kami</h3>
+
+                <p>
+
+                    Klik butang WhatsApp untuk berhubung terus dengan staf Bank Islam.
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="copyright">
+
+            © 2026 Pembiayaan Peribadi-i. Hak Cipta Terpelihara.
+
+        </div>
+
+    </div>
+
+</footer>
+
+<!-- Floating WhatsApp -->
+
+<a href="#"
+id="whatsappButton"
+class="floating-whatsapp">
+
+<i class="fa-brands fa-whatsapp"></i>
+
+</a>
+
+<!-- Scroll To Top -->
+
+<button
+id="scrollTop">
+
+<i class="fa-solid fa-arrow-up"></i>
+
+</button>
+
+<script src="script.js"></script>
+
 </body>
+
 </html>
-<script>
 
-function toggleCompany(){
+/* ===========================================================
+   PEMBIAYAAN PERIBADI-i
+   PREMIUM LANDING PAGE
+   Author : PAHROLROZI
+   Version : 1.0
+=========================================================== */
 
-let sektor=document.getElementById("sektor").value;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
-if(sektor=="Swasta" || sektor=="GLC"){
+html{
+    scroll-behavior:smooth;
+}
 
-document.getElementById("companyDiv").style.display="block";
+body{
 
-}else{
-
-document.getElementById("companyDiv").style.display="none";
+    font-family:'Poppins',sans-serif;
+    background:#f5f7fb;
+    color:#1d1d1d;
+    overflow-x:hidden;
+    line-height:1.7;
 
 }
 
-}
+/* ========================= */
 
-function ws(){
+.container{
 
-let nama=document.getElementById("nama").value;
-
-let umur=document.getElementById("umur").value;
-
-let sektor=document.getElementById("sektor").value;
-
-let company=document.getElementById("company").value;
-
-let gaji=document.getElementById("gaji").value;
-
-let status=document.getElementById("status").value;
-
-let tempoh=document.getElementById("tempoh").value;
-
-let text=
-`Salam / Hai,
-
-Saya nak semak kelayakan Pembiayaan Peribadi.
-
-Maklumat Saya:
-
-Nama : ${nama}
-Umur : ${umur}
-Sektor : ${sektor}`;
-
-if(sektor=="Swasta" || sektor=="GLC"){
-text += `\nNama Syarikat : ${company}`;
-}
-
-text += `
-
-Gaji : RM${gaji}
-Status Pekerjaan : ${status}
-Tempoh Berkhidmat : ${tempoh}
-
-Mohon bantu semak kelayakan saya.
-
-Terima kasih.`;
-
-window.open("https://wa.me/60134300057?text="+encodeURIComponent(text));
+    width:90%;
+    max-width:1200px;
+    margin:auto;
 
 }
 
-</script>
+/* ========================= */
+
+section{
+
+    padding:90px 0;
+
+}
+
+/* ========================= */
+
+img{
+
+    width:100%;
+    display:block;
+
+}
+
+/* ========================= */
+
+a{
+
+    text-decoration:none;
+
+}
+
+ul{
+
+    list-style:none;
+
+}
+
+/* ========================= */
+
+:root{
+
+    --primary:#0F7B43;
+    --secondary:#E9B949;
+    --dark:#0B1F35;
+    --white:#ffffff;
+    --light:#f8f9fc;
+    --text:#555;
+    --shadow:0 20px 45px rgba(0,0,0,.08);
+
+}
+
+/* ================================================= */
+
+.loader{
+
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    z-index:99999;
+    transition:.5s;
+
+}
+
+.spinner{
+
+    width:70px;
+    height:70px;
+    border:7px solid #eee;
+    border-top:7px solid var(--primary);
+    border-radius:50%;
+    animation:spin 1s linear infinite;
+
+}
+
+@keyframes spin{
+
+    100%{
+
+        transform:rotate(360deg);
+
+    }
+
+}
+
+/* ================================================= */
+
+header{
+
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:999;
+    transition:.4s;
+
+}
+
+header.active{
+
+    background:#fff;
+    box-shadow:0 10px 35px rgba(0,0,0,.08);
+
+}
+
+/* ================================================= */
+
+.nav{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:80px;
+
+}
+
+.logo{
+
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-size:22px;
+    font-weight:700;
+    color:var(--primary);
+
+}
+
+.logo i{
+
+    color:var(--secondary);
+    font-size:28px;
+
+}
+
+nav ul{
+
+    display:flex;
+    gap:40px;
+    align-items:center;
+
+}
+
+nav ul li a{
+
+    color:#222;
+    font-weight:500;
+    transition:.3s;
+
+}
+
+nav ul li a:hover{
+
+    color:var(--primary);
+
+}
+
+.nav-btn{
+
+    background:var(--primary);
+    color:#fff!important;
+    padding:13px 28px;
+    border-radius:50px;
+    transition:.3s;
+
+}
+
+.nav-btn:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 15px 35px rgba(15,123,67,.35);
+
+}
+
+.mobile-menu{
+
+    display:none;
+    font-size:28px;
+    cursor:pointer;
+
+}
+
+/* ================================================= */
+
+.hero{
+
+    min-height:100vh;
+
+    display:flex;
+
+    align-items:center;
+
+    background:
+
+    linear-gradient(
+
+    135deg,
+
+    rgba(15,123,67,.08),
+
+    rgba(233,185,73,.10));
+
+}
+
+.hero-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:70px;
+
+    align-items:center;
+
+}
+
+.tag{
+
+    display:inline-block;
+
+    background:rgba(15,123,67,.1);
+
+    color:var(--primary);
+
+    padding:10px 18px;
+
+    border-radius:50px;
+
+    margin-bottom:25px;
+
+    font-weight:600;
+
+}
+
+.hero h1{
+
+    font-size:58px;
+
+    line-height:1.2;
+
+    color:var(--dark);
+
+    margin-bottom:25px;
+
+}
+
+.hero p{
+
+    font-size:18px;
+
+    color:#666;
+
+    margin-bottom:35px;
+
+}
+
+.hero-btn{
+
+    display:flex;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+
+.primary-btn{
+
+    display:inline-block;
+
+    padding:16px 38px;
+
+    border-radius:50px;
+
+    background:var(--primary);
+
+    color:#fff;
+
+    font-weight:600;
+
+    transition:.35s;
+
+}
+
+.primary-btn:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:
+
+    0 20px 45px rgba(15,123,67,.30);
+
+}
+
+.secondary-btn{
+
+    display:inline-block;
+
+    padding:16px 38px;
+
+    border:2px solid var(--primary);
+
+    color:var(--primary);
+
+    border-radius:50px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.secondary-btn:hover{
+
+    background:var(--primary);
+
+    color:#fff;
+
+}
+
+.hero-info{
+
+    display:flex;
+
+    gap:50px;
+
+    margin-top:50px;
+
+}
+
+.hero-info h2{
+
+    color:var(--primary);
+
+    font-size:34px;
+
+}
+
+.hero-info span{
+
+    color:#777;
+
+}
+
+.glass-card{
+
+    background:rgba(255,255,255,.55);
+
+    backdrop-filter:blur(18px);
+
+    border-radius:25px;
+
+    padding:45px;
+
+    box-shadow:var(--shadow);
+
+    border:1px solid rgba(255,255,255,.4);
+
+}
+
+.glass-card .icon{
+
+    width:80px;
+
+    height:80px;
+
+    background:var(--primary);
+
+    color:#fff;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    border-radius:50%;
+
+    font-size:32px;
+
+    margin-bottom:25px;
+
+}
+
+.glass-card h3{
+
+    font-size:28px;
+
+    margin-bottom:18px;
+
+    color:var(--dark);
+
+}
+
+.glass-card p{
+
+    color:#666;
+
+}
+
